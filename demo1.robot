@@ -8,7 +8,7 @@ Test grade
     ${grade}  Set Variable  A
     Log To Console  ${score} = ${grade}
   ELSE IF  ${score} >= 80
-    ${grade}  Set Variable  B
+    ${grade}  Set Variable  BB
     Log To Console  ${score} = ${grade}
   ELSE IF  ${score} >= 70
     ${grade}  Set Variable  C
